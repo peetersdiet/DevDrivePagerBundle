@@ -1,0 +1,7 @@
+parameters:
+    dd_pager.doctrine.class: DevDrive\PagerBundle\Service\DoctrinePager
+
+services:
+    pager.doctrine:
+        class: %dd_pager.doctrine.class%
+        scope: prototype
